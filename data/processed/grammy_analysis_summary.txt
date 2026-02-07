@@ -1,0 +1,48 @@
+
+GRAMMY TRAJECTORIES - DATA SUMMARY
+Generated: 2026-02-07
+
+DATASET OVERVIEW:
+- Total Records: 1092
+- Categories: Best New Artist, Album of the Year, Record of the Year
+- Year Range: 1959 - 2026
+- Winners: 201
+- Nominees: 891
+
+TOP INSIGHTS:
+
+1. MOST SUCCESSFUL ARTISTS (Multiple Wins):
+artist
+Adele                5
+U2                   4
+Frank Sinatra        4
+Billie Eilish        4
+Taylor Swift         4
+Simon & Garfunkel    3
+Christopher Cross    3
+Paul Simon           3
+Stevie Wonder        3
+Eric Clapton         3
+
+2. MOST NOMINATED (Never Won These Categories):
+Kanye West: 6 nominations, 0 wins
+Lady Gaga: 6 nominations, 0 wins
+Sabrina Carpenter: 5 nominations, 0 wins
+Eminem: 5 nominations, 0 wins
+Bruce Springsteen: 5 nominations, 0 wins
+Elton John: 5 nominations, 0 wins
+
+3. BEST NEW ARTIST CURSE:
+- Only 13/66 winners (20%) won another major Grammy
+- Notable curse breakers: Adele (4 more wins), Billie Eilish (3), Norah Jones (2)
+- Christopher Cross & Norah Jones: Only artists to sweep BNA+AOTY+ROTY same year
+
+4. MOST COMPETITIVE RECENT YEAR: 2024
+- Taylor Swift (AOTY winner)
+- Miley Cyrus (ROTY winner)
+- SZA (nominated AOTY+ROTY, won neither - major snub)
+
+NEXT STEPS:
+- Awaiting Spotify API access (March 11)
+- Will analyze streaming trajectory differences between winners vs nominees
+- Research question: Does winning a Grammy correlate with streaming success?

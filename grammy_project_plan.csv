@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (protect raw data, allow processed/final to be committed if safe)
+data/raw/*
+!data/raw/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Site build outputs (if using static site generator)
+site/dist/
+site/.astro/
+site/node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+Set up project repository,Setup,1,1,Not Started,Create folder structure and initialize git,
+Install dependencies,Setup,1,1,Not Started,"pip install requirements (beautifulsoup4, requests, pandas, spotipy, python-dotenv)",
+Create .gitignore and .env,Setup,1,1,Not Started,Protect API keys and sensitive data,
+Sign up for Spotify API,Setup,1,1,Not Started,Get Client ID and Secret from developer.spotify.com,
+Write README.md,Setup,1,1,Not Started,Portfolio-ready project description,
+Build Grammy scraper - Best New Artist,Data Collection,1,1-2,Not Started,Scrape Wikipedia table for BNA category,Set up project repository
+Test scraper and validate data,Data Collection,1,2,Not Started,Ensure data is clean and complete,Build Grammy scraper - Best New Artist
+Expand scraper - Album of the Year,Data Collection,1,2-3,Not Started,Add AOTY category to scraper,Build Grammy scraper - Best New Artist
+Expand scraper - Record/Song of the Year,Data Collection,1,3,Not Started,Add ROTY and SOTY categories,Expand scraper - Album of the Year
+Build Spotify API integration,Data Collection,1,3-4,Not Started,Fetch monthly listeners and followers for artists,Sign up for Spotify API
+Handle artist name normalization,Data Collection,1,4-5,Not Started,"Match artists across datasets (case sensitivity, special characters)",Build Spotify API integration
+Create processed datasets,Data Collection,1,5,Not Started,Merge Grammy data with Spotify metrics,Handle artist name normalization
+(Optional) Add Wikipedia page views,Data Collection,1,5,Not Started,Cultural relevance proxy data,Create processed datasets
+Best New Artist outcome analysis,Analysis,2,1,Not Started,Compare winners vs nominees on streaming metrics,Create processed datasets
+Album of the Year correlation,Analysis,2,1-2,Not Started,Analyze AOTY winners vs streaming success,Create processed datasets
+Decade-by-decade trend analysis,Analysis,2,2-3,Not Started,How Grammy predictive power changed over time,Create processed datasets
+Grammy Paradox identification,Analysis,2,3,Not Started,Artists with 0 wins but high streams vs winners with low streams,Decade-by-decade trend analysis
+Genre pattern analysis,Analysis,2,3-4,Not Started,Does winning in certain genres predict better outcomes?,Create processed datasets
+Statistical correlation calculations,Analysis,2,4,Not Started,Grammy wins vs streaming numbers correlation,All analysis tasks
+Create visualizations,Analysis,2,4-5,Not Started,"Charts for all key findings (Plotly or Matplotlib)",Statistical correlation calculations
+Document key findings,Analysis,2,5,Not Started,Bullet points for LinkedIn post and site copy,Create visualizations
+Choose static site framework,Presentation,3,1,Not Started,"Decide: Astro, 11ty, or simple HTML/CSS",
+Design landing page structure,Presentation,3,1,Not Started,Wireframe main sections and layout,Choose static site framework
+Implement moonpath visual identity,Presentation,3,1-2,Not Started,Apply brand colors and design system,Design landing page structure
+Build findings sections,Presentation,3,2-3,Not Started,"Create pages/sections for each analysis area",Implement moonpath visual identity
+Embed visualizations,Presentation,3,3,Not Started,Add charts as static images or interactive embeds,Build findings sections
+Write methodology section,Presentation,3,3,Not Started,"Document data sources, limitations, approach",Document key findings
+Add navigation and polish,Presentation,3,4,Not Started,User experience refinement,Embed visualizations
+Deploy to GitHub Pages/Netlify,Presentation,3,4,Not Started,Make site live,Add navigation and polish
+Test site on multiple devices,Presentation,3,4-5,Not Started,Ensure responsive design works,Deploy to GitHub Pages/Netlify
+Draft LinkedIn post,Presentation,3,5,Not Started,Write post highlighting key findings and link to site,Test site on multiple devices
+Update portfolio with project link,Presentation,3,5,Not Started,Add to moonpath.dev and resume,Draft LinkedIn post
+Final QA and launch,Presentation,3,5,Not Started,Review everything before sharing publicly,Update portfolio with project link

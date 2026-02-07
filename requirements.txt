@@ -1,0 +1,24 @@
+# Core dependencies
+beautifulsoup4==4.12.3
+requests==2.31.0
+pandas==2.2.0
+numpy==1.26.3
+
+# Spotify API
+spotipy==2.23.0
+
+# Environment management
+python-dotenv==1.0.1
+
+# Data visualization
+matplotlib==3.8.2
+plotly==5.18.0
+seaborn==0.13.2
+
+# Jupyter for analysis
+jupyter==1.0.0
+ipykernel==6.29.0
+
+# Optional: fuzzy string matching for artist name normalization
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.0
