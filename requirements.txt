@@ -7,6 +7,9 @@ numpy==1.26.3
 # Spotify API
 spotipy==2.23.0
 
+# Billboard Charts API
+billboard.py==6.3.0
+
 # Environment management
 python-dotenv==1.0.1
 
