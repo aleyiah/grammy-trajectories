@@ -233,9 +233,9 @@ grammy-trajectories/
 
 | Milestone | Date | Status |
 |-----------|------|--------|
-| Project kickoff, repo setup | Week 1, Day 1 | Not started |
-| Grammy data scraped | Week 1, Day 3 | Not started |
-| Spotify data fetched | Week 1, Day 5 | Not started |
+| Project kickoff, repo setup | Week 1, Day 1 | Complete |
+| Grammy data scraped | Week 1, Day 3 | In Progress |
+| Spotify data fetched | Week 1, Day 5 | Blocked - API Pending |
 | Merged dataset complete | Week 1, Day 5 | Not started |
 | Core analyses done | Week 2, Day 3 | Not started |
 | Visualizations complete | Week 2, Day 5 | Not started |
