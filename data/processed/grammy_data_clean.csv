@@ -133,7 +133,7 @@ year,category,artist,is_winner,decade,album,record
 1986,Best New Artist,Freddie Jackson,False,1980.0,,
 1986,Best New Artist,Katrina and the Waves,False,1980.0,,
 1986,Best New Artist,Julian Lennon,False,1980.0,,
-1987,Best New Artist,Bruce Hornsby& The Range,True,1980.0,,
+1987,Best New Artist,Bruce Hornsby & The Range,True,1980.0,,
 1987,Best New Artist,Glass Tiger,False,1980.0,,
 1987,Best New Artist,Nu Shooz,False,1980.0,,
 1987,Best New Artist,Simply Red,False,1980.0,,
@@ -148,7 +148,7 @@ year,category,artist,is_winner,decade,album,record
 1989,Best New Artist,Toni Childs,False,1980.0,,
 1989,Best New Artist,Take 6,False,1980.0,,
 1989,Best New Artist,Vanessa L. Williams,False,1980.0,,
-1990,Best New Artist,Milli Vanilli(Later Revoked)[III],True,1990.0,,
+1990,Best New Artist,Milli Vanilli,True,1990.0,,
 1990,Best New Artist,Neneh Cherry,False,1990.0,,
 1990,Best New Artist,Indigo Girls,False,1990.0,,
 1990,Best New Artist,Tone Lōc,False,1990.0,,
@@ -380,20 +380,20 @@ year,category,artist,is_winner,decade,album,record
 1962,Album of the Year,Judy Garland,True,,Judy at Carnegie Hall,
 1962,Album of the Year,Henry Mancini,False,,Breakfast at Tiffany's,
 1962,Album of the Year,Ray Charles,False,,Genius + Soul = Jazz,
-1962,Album of the Year,Si Zentner&Johnny MannSingers,False,,Great Band with Great Voices,
+1962,Album of the Year,Si Zentner & Johnny MannSingers,False,,Great Band with Great Voices,
 1962,Album of the Year,Nat King Cole,False,,The Nat King Cole Story,
 1962,Album of the Year,John Green,False,,West Side Story (Motion Picture Soundtrack),
 1963,Album of the Year,Vaughn Meader,True,,The First Family,
 1963,Album of the Year,Tony Bennett,False,,I Left My Heart in San Francisco,
-1963,Album of the Year,Stan Getz&Charlie Byrd,False,,Jazz Samba,
+1963,Album of the Year,Stan Getz & Charlie Byrd,False,,Jazz Samba,
 1963,Album of the Year,Ray Charles,False,,Modern Sounds in Country and Western Music,
 1963,Album of the Year,Allan Sherman,False,,"My Son, the Folk Singer",
 1964,Album of the Year,Barbra Streisand,True,,The Barbra Streisand Album,
-1964,Album of the Year,Ward Swingle&The Swingle Singers,False,,Bach's Greatest Hits,
+1964,Album of the Year,Ward Swingle & The Swingle Singers,False,,Bach's Greatest Hits,
 1964,Album of the Year,Andy Williams,False,,Days of Wine and Roses and Other TV Requests,
 1964,Album of the Year,Al Hirt,False,,Honey in the Horn,
 1964,Album of the Year,Soeur Sourire,False,,The Singing Nun,
-1965,Album of the Year,Stan Getz&João Gilberto,True,,Getz/Gilberto,
+1965,Album of the Year,Stan Getz & João Gilberto,True,,Getz/Gilberto,
 1965,Album of the Year,Al Hirt,False,,Cotton Candy,
 1965,Album of the Year,Various Artists,False,,Funny Girl,
 1965,Album of the Year,Barbra Streisand,False,,People,
@@ -407,9 +407,9 @@ year,category,artist,is_winner,decade,album,record
 1967,Album of the Year,Barbra Streisand,False,,Color Me Barbra,
 1967,Album of the Year,Maurice Jarre,False,,Doctor Zhivago (Original Soundtrack),
 1967,Album of the Year,The Beatles,False,,Revolver,
-1967,Album of the Year,Herb Alpert& the Tijuana Brass,False,,What Now My Love,
+1967,Album of the Year,Herb Alpert & the Tijuana Brass,False,,What Now My Love,
 1968,Album of the Year,The Beatles,True,,Sgt. Pepper's Lonely Hearts Club Band,
-1968,Album of the Year,Frank Sinatra&Antônio Carlos Jobim,False,,Francis Albert Sinatra & Antônio Carlos Jobim,
+1968,Album of the Year,Frank Sinatra & Antônio Carlos Jobim,False,,Francis Albert Sinatra & Antônio Carlos Jobim,
 1968,Album of the Year,Vikki Carr,False,,It Must Be Him,
 1968,Album of the Year,Ed Ames,False,,My Cup Runneth Over,
 1968,Album of the Year,Bobbie Gentry,False,,Ode to Billie Joe,
@@ -434,7 +434,7 @@ year,category,artist,is_winner,decade,album,record
 1972,Album of the Year,Carpenters,False,,Carpenters,
 1972,Album of the Year,Various Artists,False,,Jesus Christ Superstar (London Production),
 1972,Album of the Year,Isaac Hayes,False,,Shaft,
-1973,Album of the Year,"George Harrison& Friends(Ravi Shankar,Bob Dylan,Leon Russell,Ringo Starr,Billy Preston,Eric Clapton&Klaus Voormann)",True,,The Concert for Bangladesh,
+1973,Album of the Year,George Harrison & Friends,True,,The Concert for Bangladesh,
 1973,Album of the Year,Don McLean,False,,American Pie,
 1973,Album of the Year,Various Artists,False,,Jesus Christ Superstar — Original Broadway Cast,
 1973,Album of the Year,Neil Diamond,False,,Moods,
@@ -479,7 +479,7 @@ year,category,artist,is_winner,decade,album,record
 1981,Album of the Year,Pink Floyd,False,,The Wall,
 1981,Album of the Year,Frank Sinatra,False,,Trilogy: Past Present Future,
 1981,Album of the Year,Barbra Streisand,False,,Guilty,
-1982,Album of the Year,John Lennon&Yoko Ono,True,,Double Fantasy,
+1982,Album of the Year,John Lennon & Yoko Ono,True,,Double Fantasy,
 1982,Album of the Year,Kim Carnes,False,,Mistaken Identity,
 1982,Album of the Year,Al Jarreau,False,,Breakin' Away,
 1982,Album of the Year,Quincy Jones,False,,The Dude,
@@ -496,7 +496,7 @@ year,category,artist,is_winner,decade,album,record
 1984,Album of the Year,Various Artists,False,,Flashdance: Original Soundtrack from the Motion Picture,
 1985,Album of the Year,Lionel Richie,True,,Can't Slow Down,
 1985,Album of the Year,Cyndi Lauper,False,,She's So Unusual,
-1985,Album of the Year,Prince&The Revolution,False,,Purple Rain,
+1985,Album of the Year,Prince & The Revolution,False,,Purple Rain,
 1985,Album of the Year,Bruce Springsteen,False,,Born in the U.S.A.,
 1985,Album of the Year,Tina Turner,False,,Private Dancer,
 1986,Album of the Year,Phil Collins,True,,No Jacket Required,
@@ -512,7 +512,7 @@ year,category,artist,is_winner,decade,album,record
 1988,Album of the Year,U2,True,,The Joshua Tree,
 1988,Album of the Year,Whitney Houston,False,,Whitney,
 1988,Album of the Year,Michael Jackson,False,,Bad,
-1988,Album of the Year,"Dolly Parton,Linda Ronstadt&Emmylou Harris",False,,Trio,
+1988,Album of the Year,"Dolly Parton,Linda Ronstadt & Emmylou Harris",False,,Trio,
 1988,Album of the Year,Prince,False,,Sign o' the Times,
 1989,Album of the Year,George Michael,True,,Faith,
 1989,Album of the Year,Tracy Chapman,False,,Tracy Chapman,
@@ -548,7 +548,7 @@ year,category,artist,is_winner,decade,album,record
 1995,Album of the Year,Eric Clapton,False,,From the Cradle,
 1995,Album of the Year,Bonnie Raitt,False,,Longing in Their Hearts,
 1995,Album of the Year,Seal,False,,Seal,
-1995,Album of the Year,"José Carreras,Plácido Domingo&Luciano PavarottiwithZubin Mehta",False,,The 3 Tenors in Concert 1994,
+1995,Album of the Year,"José Carreras,Plácido Domingo & Luciano PavarottiwithZubin Mehta",False,,The 3 Tenors in Concert 1994,
 1996,Album of the Year,Alanis Morissette,True,,Jagged Little Pill,
 1996,Album of the Year,Mariah Carey,False,,Daydream,
 1996,Album of the Year,Michael Jackson,False,,"HIStory: Past, Present and Future, Book I",
@@ -594,7 +594,7 @@ year,category,artist,is_winner,decade,album,record
 2004,Album of the Year,Evanescence,False,,Fallen,
 2004,Album of the Year,Justin Timberlake,False,,Justified,
 2004,Album of the Year,Missy Elliott,False,,Under Construction,
-2005,Album of the Year,Ray Charles& Various Artists,True,,Genius Loves Company,
+2005,Album of the Year,Ray Charles & Various Artists,True,,Genius Loves Company,
 2005,Album of the Year,Green Day,False,,American Idiot,
 2005,Album of the Year,Kanye West,False,,The College Dropout,
 2005,Album of the Year,Usher,False,,Confessions,
@@ -614,7 +614,7 @@ year,category,artist,is_winner,decade,album,record
 2008,Album of the Year,Foo Fighters,False,,"Echoes, Silence, Patience & Grace",
 2008,Album of the Year,Kanye West,False,,Graduation,
 2008,Album of the Year,Vince Gill,False,,These Days,
-2009,Album of the Year,Robert Plant&Alison Krauss,True,,Raising Sand,
+2009,Album of the Year,Robert Plant & Alison Krauss,True,,Raising Sand,
 2009,Album of the Year,Radiohead,False,,In Rainbows,
 2009,Album of the Year,Lil Wayne,False,,Tha Carter III,
 2009,Album of the Year,Coldplay,False,,Viva la Vida or Death and All His Friends,
@@ -694,7 +694,7 @@ year,category,artist,is_winner,decade,album,record
 2022,Album of the Year,Taylor Swift,False,,Evermore,
 2022,Album of the Year,Billie Eilish,False,,Happier Than Ever,
 2022,Album of the Year,Justin Bieber,False,,Justice (Triple Chucks Deluxe),
-2022,Album of the Year,Tony Bennett&Lady Gaga,False,,Love for Sale,
+2022,Album of the Year,Tony Bennett & Lady Gaga,False,,Love for Sale,
 2022,Album of the Year,Lil Nas X,False,,Montero,
 2022,Album of the Year,Doja Cat,False,,Planet Her (Deluxe),
 2022,Album of the Year,Olivia Rodrigo,False,,Sour,
@@ -743,7 +743,7 @@ year,category,artist,is_winner,decade,album,record
 1962,Record of the Year,The Dave Brubeck Quartet,False,,,"""Take Five"""
 1962,Record of the Year,Si Zentner,False,,,"""(Up a) Lazy River"""
 1963,Record of the Year,Tony Bennett,True,,,"""I Left My Heart in San Francisco"""
-1963,Record of the Year,Stan Getz&Charlie Byrd,False,,,"""Desafinado"""
+1963,Record of the Year,Stan Getz & Charlie Byrd,False,,,"""Desafinado"""
 1963,Record of the Year,Joe Harnelland His Orchestra,False,,,"""Fly Me to the Moon Bossa Nova"""
 1963,Record of the Year,Ray Charles,False,,,"""I Can't Stop Loving You"""
 1963,Record of the Year,Sammy Davis Jr.,False,,,"""What Kind of Fool Am I?"""
@@ -752,12 +752,12 @@ year,category,artist,is_winner,decade,album,record
 1964,Record of the Year,Barbra Streisand,False,,,"""Happy Days Are Here Again"""
 1964,Record of the Year,Tony Bennett,False,,,"""I Wanna Be Around"""
 1964,Record of the Year,Jack Jones,False,,,"""Wives and Lovers"""
-1965,Record of the Year,Stan Getz&Astrud Gilberto,True,,,"""The Girl from Ipanema"""
+1965,Record of the Year,Stan Getz & Astrud Gilberto,True,,,"""The Girl from Ipanema"""
 1965,Record of the Year,Petula Clark,False,,,"""Downtown"""
 1965,Record of the Year,Louis Armstrong,False,,,"""Hello, Dolly!"""
 1965,Record of the Year,The Beatles,False,,,"""I Want to Hold Your Hand"""
 1965,Record of the Year,Barbra Streisand,False,,,"""People"""
-1966,Record of the Year,Herb Alpert& the Tijuana Brass,True,,,"""A Taste of Honey"""
+1966,Record of the Year,Herb Alpert & the Tijuana Brass,True,,,"""A Taste of Honey"""
 1966,Record of the Year,Ramsey Lewis Trio,False,,,"""The 'In' Crowd"""
 1966,Record of the Year,Roger Miller,False,,,"""King of the Road"""
 1966,Record of the Year,Tony Bennett,False,,,"""The Shadow of Your Smile (Love Theme From ""The Sandpiper"")"""
@@ -765,13 +765,13 @@ year,category,artist,is_winner,decade,album,record
 1967,Record of the Year,Frank Sinatra,True,,,"""Strangers in the Night"""
 1967,Record of the Year,David Houston,False,,,"""Almost Persuaded"""
 1967,Record of the Year,The Mamas and the Papas,False,,,"""Monday, Monday"""
-1967,Record of the Year,Herb Alpert& the Tijuana Brass,False,,,"""What Now My Love"""
+1967,Record of the Year,Herb Alpert & the Tijuana Brass,False,,,"""What Now My Love"""
 1967,Record of the Year,The New Vaudeville Band,False,,,"""Winchester Cathedral"""
 1968,Record of the Year,The 5th Dimension,True,,,"""Up, Up and Away"""
 1968,Record of the Year,Glen Campbell,False,,,"""By the Time I Get to Phoenix"""
 1968,Record of the Year,Ed Ames,False,,,"""My Cup Runneth Over"""
 1968,Record of the Year,Bobbie Gentry,False,,,"""Ode to Billie Joe"""
-1968,Record of the Year,Frank Sinatra&Nancy Sinatra,False,,,"""Somethin' Stupid"""
+1968,Record of the Year,Frank Sinatra & Nancy Sinatra,False,,,"""Somethin' Stupid"""
 1969,Record of the Year,Simon & Garfunkel,True,,,"""Mrs. Robinson"""
 1969,Record of the Year,Jeannie C. Riley,False,,,"""Harper Valley PTA"""
 1969,Record of the Year,The Beatles,False,,,"""Hey Jude"""
@@ -831,7 +831,7 @@ year,category,artist,is_winner,decade,album,record
 1980,Record of the Year,"Earth, Wind & Fire",False,,,"""After the Love Has Gone"""
 1980,Record of the Year,Kenny Rogers,False,,,"""The Gambler"""
 1980,Record of the Year,Gloria Gaynor,False,,,"""I Will Survive"""
-1980,Record of the Year,Barbra Streisand&Neil Diamond,False,,,"""You Don't Bring Me Flowers"""
+1980,Record of the Year,Barbra Streisand & Neil Diamond,False,,,"""You Don't Bring Me Flowers"""
 1981,Record of the Year,Christopher Cross,True,,,"""Sailing"""
 1981,Record of the Year,Kenny Rogers,False,,,"""Lady"""
 1981,Record of the Year,Bette Midler,False,,,"""The Rose"""
@@ -839,13 +839,13 @@ year,category,artist,is_winner,decade,album,record
 1981,Record of the Year,Barbra Streisand,False,,,"""Woman in Love"""
 1982,Record of the Year,Kim Carnes,True,,,"""Bette Davis Eyes"""
 1982,Record of the Year,Christopher Cross,False,,,"""Arthur's Theme (Best That You Can Do)"""
-1982,Record of the Year,Diana Ross&Lionel Richie,False,,,"""Endless Love"""
+1982,Record of the Year,Diana Ross & Lionel Richie,False,,,"""Endless Love"""
 1982,Record of the Year,Grover Washington Jr.withBill Withers,False,,,"""Just the Two of Us"""
 1982,Record of the Year,John Lennon,False,,,"""(Just Like) Starting Over"""
 1983,Record of the Year,Toto,True,,,"""Rosanna"""
 1983,Record of the Year,Willie Nelson,False,,,"""Always on My Mind"""
 1983,Record of the Year,Vangelis,False,,,"""Chariots of Fire"""
-1983,Record of the Year,Paul McCartney&Stevie Wonder,False,,,"""Ebony and Ivory"""
+1983,Record of the Year,Paul McCartney & Stevie Wonder,False,,,"""Ebony and Ivory"""
 1983,Record of the Year,Joe Jackson,False,,,"""Steppin' Out"""
 1984,Record of the Year,Michael Jackson,True,,,"""Beat It"""
 1984,Record of the Year,Lionel Richie,False,,,"""All Night Long (All Night)"""
@@ -866,7 +866,7 @@ year,category,artist,is_winner,decade,album,record
 1987,Record of the Year,Robert Palmer,False,,,"""Addicted to Love"""
 1987,Record of the Year,Whitney Houston,False,,,"""Greatest Love of All"""
 1987,Record of the Year,Peter Gabriel,False,,,"""Sledgehammer"""
-1987,Record of the Year,"Dionne Warwick& Friends (Elton John,Gladys Knight&Stevie Wonder)",False,,,"""That's What Friends Are For"""
+1987,Record of the Year,Dionne Warwick & Friends,False,,,"""That's What Friends Are For"""
 1988,Record of the Year,Paul Simon,True,,,"""Graceland"""
 1988,Record of the Year,Steve Winwood,False,,,"""Back in the High Life Again"""
 1988,Record of the Year,Los Lobos,False,,,"""La Bamba"""
@@ -887,21 +887,21 @@ year,category,artist,is_winner,decade,album,record
 1991,Record of the Year,Sinéad O'Connor,False,,,"""Nothing Compares 2 U"""
 1991,Record of the Year,MC Hammer,False,,,"""U Can't Touch This"""
 1991,Record of the Year,Mariah Carey,False,,,"""Vision of Love"""
-1992,Record of the Year,Natalie Cole(WithNat King Cole),True,,,"""Unforgettable"""
+1992,Record of the Year,Natalie Cole,True,,,"""Unforgettable"""
 1992,Record of the Year,Amy Grant,False,,,"""Baby Baby"""
 1992,Record of the Year,Bryan Adams,False,,,"""(Everything I Do) I Do It for You"""
 1992,Record of the Year,R.E.M.,False,,,"""Losing My Religion"""
 1992,Record of the Year,Bonnie Raitt,False,,,"""Something to Talk About"""
 1993,Record of the Year,Eric Clapton,True,,,"""Tears in Heaven"""
 1993,Record of the Year,Billy Ray Cyrus,False,,,"""Achy Breaky Heart"""
-1993,Record of the Year,Celine Dion&Peabo Bryson,False,,,"""Beauty and the Beast"""
+1993,Record of the Year,Celine Dion & Peabo Bryson,False,,,"""Beauty and the Beast"""
 1993,Record of the Year,k.d. lang,False,,,"""Constant Craving"""
 1993,Record of the Year,Vanessa Williams,False,,,"""Save the Best for Last"""
 1994,Record of the Year,Whitney Houston,True,,,"""I Will Always Love You"""
 1994,Record of the Year,Neil Young,False,,,"""Harvest Moon"""
 1994,Record of the Year,Sting,False,,,"""If I Ever Lose My Faith in You"""
 1994,Record of the Year,Billy Joel,False,,,"""The River of Dreams"""
-1994,Record of the Year,Peabo Bryson&Regina Belle,False,,,"""A Whole New World"""
+1994,Record of the Year,Peabo Bryson & Regina Belle,False,,,"""A Whole New World"""
 1995,Record of the Year,Sheryl Crow,True,,,"""All I Wanna Do"""
 1995,Record of the Year,Mary Chapin Carpenter,False,,,"""He Thinks He'll Keep Her"""
 1995,Record of the Year,Boyz II Men,False,,,"""I'll Make Love to You"""
@@ -910,7 +910,7 @@ year,category,artist,is_winner,decade,album,record
 1996,Record of the Year,Seal,True,,,"""Kiss from a Rose"""
 1996,Record of the Year,Coolio,False,,,"""Gangsta's Paradise"""
 1996,Record of the Year,Joan Osborne,False,,,"""One of Us"""
-1996,Record of the Year,Mariah Carey&Boyz II Men,False,,,"""One Sweet Day"""
+1996,Record of the Year,Mariah Carey & Boyz II Men,False,,,"""One Sweet Day"""
 1996,Record of the Year,TLC,False,,,"""Waterfalls"""
 1997,Record of the Year,Eric Clapton,True,,,"""Change the World"""
 1997,Record of the Year,The Smashing Pumpkins,False,,,"""1979"""
@@ -923,7 +923,7 @@ year,category,artist,is_winner,decade,album,record
 1998,Record of the Year,Hanson,False,,,"""MMMBop"""
 1998,Record of the Year,Paula Cole,False,,,"""Where Have All the Cowboys Gone?"""
 1999,Record of the Year,Celine Dion,True,,,"""My Heart Will Go On"""
-1999,Record of the Year,Brandy&Monica,False,,,"""The Boy Is Mine"""
+1999,Record of the Year,Brandy & Monica,False,,,"""The Boy Is Mine"""
 1999,Record of the Year,Goo Goo Dolls,False,,,"""Iris"""
 1999,Record of the Year,Madonna,False,,,"""Ray of Light"""
 1999,Record of the Year,Shania Twain,False,,,"""You're Still the One"""
@@ -951,12 +951,12 @@ year,category,artist,is_winner,decade,album,record
 2004,Record of the Year,BeyoncéfeaturingJay-Z,False,,,"""Crazy in Love"""
 2004,Record of the Year,Outkast,False,,,"""Hey Ya!"""
 2004,Record of the Year,Eminem,False,,,"""Lose Yourself"""
-2004,Record of the Year,The Black Eyed Peas&Justin Timberlake,False,,,"""Where Is the Love?"""
-2005,Record of the Year,Ray Charles&Norah Jones,True,,,"""Here We Go Again"""
+2004,Record of the Year,The Black Eyed Peas & Justin Timberlake,False,,,"""Where Is the Love?"""
+2005,Record of the Year,Ray Charles & Norah Jones,True,,,"""Here We Go Again"""
 2005,Record of the Year,Green Day,False,,,"""American Idiot"""
 2005,Record of the Year,Los Lonely Boys,False,,,"""Heaven"""
 2005,Record of the Year,The Black Eyed Peas,False,,,"""Let's Get It Started"""
-2005,Record of the Year,UsherfeaturingLil Jon&Ludacris,False,,,"""Yeah"""
+2005,Record of the Year,UsherfeaturingLil Jon & Ludacris,False,,,"""Yeah"""
 2006,Record of the Year,Green Day,True,,,"""Boulevard of Broken Dreams"""
 2006,Record of the Year,GorillazfeaturingDe La Soul,False,,,"""Feel Good Inc."""
 2006,Record of the Year,Kanye West,False,,,"""Gold Digger"""
@@ -972,7 +972,7 @@ year,category,artist,is_winner,decade,album,record
 2008,Record of the Year,Foo Fighters,False,,,"""The Pretender"""
 2008,Record of the Year,RihannafeaturingJay-Z,False,,,"""Umbrella"""
 2008,Record of the Year,Justin Timberlake,False,,,"""What Goes Around... Comes Around"""
-2009,Record of the Year,Robert Plant&Alison Krauss,True,,,"""Please Read the Letter"""
+2009,Record of the Year,Robert Plant & Alison Krauss,True,,,"""Please Read the Letter"""
 2009,Record of the Year,Leona Lewis,False,,,"""Bleeding Love"""
 2009,Record of the Year,Adele,False,,,"""Chasing Pavements"""
 2009,Record of the Year,M.I.A.,False,,,"""Paper Planes"""
@@ -998,8 +998,8 @@ year,category,artist,is_winner,decade,album,record
 2013,Record of the Year,Frank Ocean,False,,,"""Thinkin Bout You"""
 2013,Record of the Year,Taylor Swift,False,,,"""We Are Never Ever Getting Back Together"""
 2013,Record of the Year,Fun.featuringJanelle Monáe,False,,,"""We Are Young"""
-2014,Record of the Year,Daft PunkfeaturingPharrell Williams&Nile Rodgers,True,,,"""Get Lucky"""
-2014,Record of the Year,Robin ThickefeaturingT.I.&Pharrell Williams,False,,,"""Blurred Lines"""
+2014,Record of the Year,Daft PunkfeaturingPharrell Williams & Nile Rodgers,True,,,"""Get Lucky"""
+2014,Record of the Year,Robin ThickefeaturingT.I. & Pharrell Williams,False,,,"""Blurred Lines"""
 2014,Record of the Year,Bruno Mars,False,,,"""Locked Out of Heaven"""
 2014,Record of the Year,Imagine Dragons,False,,,"""Radioactive"""
 2014,Record of the Year,Lorde,False,,,"""Royals"""
@@ -1019,24 +1019,24 @@ year,category,artist,is_winner,decade,album,record
 2017,Record of the Year,Twenty One Pilots,False,,,"""Stressed Out"""
 2017,Record of the Year,RihannafeaturingDrake,False,,,"""Work"""
 2018,Record of the Year,Bruno Mars,True,,,"""24K Magic"""
-2018,Record of the Year,Luis Fonsi&Daddy YankeefeaturingJustin Bieber,False,,,"""Despacito"""
+2018,Record of the Year,Luis Fonsi & Daddy YankeefeaturingJustin Bieber,False,,,"""Despacito"""
 2018,Record of the Year,Kendrick Lamar,False,,,"""HUMBLE."""
 2018,Record of the Year,Childish Gambino,False,,,"""Redbone"""
 2018,Record of the Year,Jay-Z,False,,,"""The Story of O.J."""
 2019,Record of the Year,Childish Gambino,True,,,"""This Is America"""
-2019,Record of the Year,Kendrick Lamar&SZA,False,,,"""All the Stars"""
+2019,Record of the Year,Kendrick Lamar & SZA,False,,,"""All the Stars"""
 2019,Record of the Year,Drake,False,,,"""God's Plan"""
-2019,Record of the Year,"Cardi B,Bad Bunny&J Balvin",False,,,"""I Like It"""
+2019,Record of the Year,"Cardi B,Bad Bunny & J Balvin",False,,,"""I Like It"""
 2019,Record of the Year,Brandi Carlile,False,,,"""The Joke"""
-2019,Record of the Year,"Zedd,Maren Morris&Grey",False,,,"""The Middle"""
+2019,Record of the Year,"Zedd,Maren Morris & Grey",False,,,"""The Middle"""
 2019,Record of the Year,Post Malonefeaturing21 Savage,False,,,"""Rockstar"""
-2019,Record of the Year,Lady Gaga&Bradley Cooper,False,,,"""Shallow"""
+2019,Record of the Year,Lady Gaga & Bradley Cooper,False,,,"""Shallow"""
 2020,Record of the Year,Billie Eilish,True,,,"""Bad Guy"""
 2020,Record of the Year,Ariana Grande,False,,,"""7 Rings"""
 2020,Record of the Year,H.E.R.,False,,,"""Hard Place"""
 2020,Record of the Year,Bon Iver,False,,,"""Hey, Ma"""
 2020,Record of the Year,Lil Nas XfeaturingBilly Ray Cyrus,False,,,"""Old Town Road"""
-2020,Record of the Year,Post Malone&Swae Lee,False,,,"""Sunflower"""
+2020,Record of the Year,Post Malone & Swae Lee,False,,,"""Sunflower"""
 2020,Record of the Year,Khalid,False,,,"""Talk"""
 2020,Record of the Year,Lizzo,False,,,"""Truth Hurts"""
 2021,Record of the Year,Billie Eilish,True,,,"""Everything I Wanted"""
@@ -1051,7 +1051,7 @@ year,category,artist,is_winner,decade,album,record
 2022,Record of the Year,Olivia Rodrigo,False,,,"""Drivers License"""
 2022,Record of the Year,Jon Batiste,False,,,"""Freedom"""
 2022,Record of the Year,Billie Eilish,False,,,"""Happier Than Ever"""
-2022,Record of the Year,Tony Bennett&Lady Gaga,False,,,"""I Get a Kick Out of You"""
+2022,Record of the Year,Tony Bennett & Lady Gaga,False,,,"""I Get a Kick Out of You"""
 2022,Record of the Year,ABBA,False,,,"""I Still Have Faith in You"""
 2022,Record of the Year,Doja CatfeaturingSZA,False,,,"""Kiss Me More"""
 2022,Record of the Year,Lil Nas X,False,,,"""Montero (Call Me By Your Name)"""
@@ -1083,10 +1083,10 @@ year,category,artist,is_winner,decade,album,record
 2025,Record of the Year,Chappell Roan,False,,,"""Good Luck, Babe!"""
 2025,Record of the Year,The Beatles,False,,,"""Now and Then"""
 2025,Record of the Year,Beyoncé,False,,,"""Texas Hold 'Em"""
-2026,Record of the Year,Kendrick Lamar&SZA,True,,,"""Luther"""
+2026,Record of the Year,Kendrick Lamar & SZA,True,,,"""Luther"""
 2026,Record of the Year,Lady Gaga,False,,,"""Abracadabra"""
 2026,Record of the Year,Doechii,False,,,"""Anxiety"""
-2026,Record of the Year,Rosé&Bruno Mars,False,,,"""APT."""
+2026,Record of the Year,Rosé & Bruno Mars,False,,,"""APT."""
 2026,Record of the Year,Bad Bunny,False,,,"""DTMF"""
 2026,Record of the Year,Sabrina Carpenter,False,,,"""Manchild"""
 2026,Record of the Year,Chappell Roan,False,,,"""The Subway"""
