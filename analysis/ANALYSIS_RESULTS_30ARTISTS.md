@@ -152,6 +152,49 @@ This reveals position decline often reflects **increased productivity**, not car
 
 ---
 
+## Multi-Grammy Analysis: Critical vs Commercial Success
+
+### The Bombshell Finding
+
+**Hypothesis:** Multi-Grammy winners should escape the commercial curse  
+**Reality:** 75% of multi-Grammy winners STILL showed commercial decline
+
+### The Evidence
+
+Only **18.2% (12/66)** BNA winners won another major Grammy (AOTY/ROTY/SOTY)
+
+**Of those with Billboard data:**
+
+| Artist | Additional Grammys | Position Change | Status |
+|--------|-------------------|-----------------|--------|
+| The Beatles | AOTY (1968) | +22.9 | ❌ CURSED |
+| Christopher Cross | AOTY + ROTY (same year) | +25.6 | ❌ CURSED |
+| Bette Midler | ROTY (1990) | +13.8 | ❌ CURSED |
+| Natalie Cole | AOTY + ROTY (1992) | -29.6 | ✅ ESCAPED |
+
+**Key Insight:** Critical acclaim (Grammy wins) and commercial success (chart positions) are **decoupled**. Even The Beatles - arguably the most successful band in history - showed the commercial curse pattern.
+
+### Same-Year Sweeps Dominate
+
+**67% (8/12) of multi-Grammy winners swept same year:**
+- Christopher Cross, Norah Jones, Billie Eilish (BNA + AOTY + ROTY)
+- Bob Newhart, Lauryn Hill (BNA + AOTY)
+- Sheryl Crow, Amy Winehouse, Sam Smith (BNA + ROTY)
+
+**Interpretation:** Most "curse breakers" didn't break it later - they peaked immediately and never matched that height again.
+
+### True Long-Term Curse Breakers: Only 4
+
+**Won major Grammys YEARS after BNA:**
+1. Adele - 3 & 8 years later (2x AOTY, 2x ROTY)
+2. Natalie Cole - 16 years later (AOTY + ROTY) - ONLY commercial success too
+3. The Beatles - 3 years later (AOTY) - but commercially cursed
+4. Bette Midler - 16 years later (ROTY) - but commercially cursed
+
+**Only 6% (4/66) sustained critical acclaim beyond BNA year**
+
+---
+
 ## Limitations
 
 1. **Sample:** 30/66 artists (45% complete)
