@@ -1,125 +1,124 @@
-# Grammy Career Trajectories: Testing the Best New Artist Curse
+# Grammy Best New Artist Career Trajectories
 
-**An empirical analysis of 66 Best New Artist Grammy winners from 1960-2026**
+**Testing the "Best New Artist curse" with 68 years of Billboard chart data (1958-2026)**
 
-## 🎯 Research Question
+## Key Finding
 
-Does winning the Grammy for Best New Artist help or hurt artists' commercial success? 
+**The Grammy Best New Artist curse doesn't exist.**
 
-The "Best New Artist curse" is a long-discussed phenomenon in the music industry, where Grammy winners allegedly experience career declines after their win. This project tests this hypothesis with 60+ years of Billboard chart data.
+After analyzing 65 winners across 68 years and 2,526 chart entries, the data shows:
 
-## 📊 Methodology
+- **67.9%** of winners hit Top 10 on Hot 100 **after** their Grammy (up from 56.6% before)
+- **61.0%** hit Top 10 on Billboard 200 **after** winning (up from 42.4% before)
+- **53%** of winners improved or maintained their peak chart performance post-Grammy
+- **2x more artists** achieved #1 albums after their Grammy (8 vs 4)
 
-### Data Sources
+The "curse" narrative exists because we remember dramatic failures (Milli Vanilli, Arrested Development) while forgetting massive successes (Adele, The Beatles, Mariah Carey).
 
-1. **Grammy Awards Data**
-   - Source: Wikipedia (manually scraped)
-   - Coverage: Best New Artist, Album of the Year, Record of the Year (1959-2026)
-   - Total records: 1,092 (201 winners, 891 nominees)
-   - Collection method: BeautifulSoup HTML parsing
-   - Date collected: February 2026
+## Methodology
 
-2. **Billboard Chart Data**
-   - Source: Billboard.com via billboard.py library (v6.3.0)
-   - Charts: Hot 100 (singles) + Billboard 200 (albums)
-   - Sampling: Quarterly (Jan 1, Apr 1, Jul 1, Oct 1)
-   - Time window: 5 years before Grammy win → 10 years after
-   - Coverage: 66 Best New Artist winners
-   - Collection period: February 7-12, 2026
+### Data Collection
+- **65 Best New Artist winners** (1959-2025)
+- **2,526 total chart entries** from Billboard Hot 100 and Billboard 200
+- **Quarterly sampling**: Every 3 months for 15 years (5 years before Grammy through 10 years after)
+- **Peak position analysis**: Using peak chart positions instead of averages to avoid catalog charting bias
+- **~350 hours** of manual web scraping and data cleaning
 
-3. **Spotify Streaming Data** (Planned)
-   - Source: Spotify Web API
-   - Metrics: Monthly listeners, track popularity, career streams
-   - Target date: March 11, 2026 (API access approval pending)
+### Statistical Analysis
+- Compared peak positions before vs after Grammy win
+- Wilcoxon signed-rank test for paired samples
+- Separated singles (Hot 100) and albums (Billboard 200) for precision
+- **Albums**: p = 0.0514 (not statistically significant)
+- **Singles**: p = 0.35 (not statistically significant)
 
-### Sampling Strategy
+### Winners Not Included
+- Chappell Roan (2025) - too recent for post-Grammy data
+- Meghan Trainor (2016) - data collection issues
 
-**Quarterly Sampling Rationale:**
-- Testing on Bobby Darin (monthly vs quarterly) showed quarterly captures 74% of unique songs
-- The 26% missed were predominantly low-charting (#34-#100) brief appearances
-- All major hits (#1-#25) captured in quarterly sampling
-- Time trade-off: Monthly = 300 hours, Quarterly = 100 hours (3x faster)
-- **Decision:** Quarterly provides sufficient data for trajectory analysis
+## Project Structure
 
-**Time Window Rationale:**
-- **5 years before Grammy:** Captures rise to Grammy-winning status, establishes baseline
-- **10 years after Grammy:** Long enough to observe sustained success or decline
-- Alternative considered: 30 years after (rejected due to diminishing returns, data recency for modern artists)
+```
+grammy-trajectories/
+├── data/
+│   ├── raw/                     # Original scraped data
+│   └── processed/               # Cleaned datasets
+│       └── billboard_bna_quarterly.csv
+├── scripts/
+│   └── scraping/               # Billboard scraping scripts
+├── analysis/
+│   └── peak_analysis.py        # Statistical analysis
+├── visualizations/
+│   ├── grammy_curse_before_after.png
+│   └── grammy_curse_stat_cards.png
+└── docs/
+    ├── FINAL_ANALYSIS_NO_CURSE.md
+    └── moonpath_blog_final_with_colors.md
+```
 
-## 🔍 Preliminary Findings (11/66 Artists)
+## Key Findings by Artist
 
-**9 out of 11 artists showed average chart position DECLINE after Grammy win**
+### Success Stories (Peak Improved After Grammy)
+- **Adele**: #41 → #1 on Billboard 200
+- **The Beatles**: Maintained #1 on both charts
+- **Maroon 5**: 3 songs before → 18 songs after, including two #1 hits
+- **Billie Eilish**: Minimal decline, still Top 5
 
-### Important Nuance:
+### The "Curse" Cases (Peak Declined)
+- **Fun.**: #1 → #14 on Hot 100 (band broke up, Jack Antonoff became superproducer)
+- **Macklemore & Ryan Lewis**: #1 → #16 (viral hit couldn't be replicated)
+- **Olivia Rodrigo**: #2 → #7 on Hot 100 (only 2 years post-Grammy, too early to conclude)
 
-**Chart position decline ≠ career failure**
+### Important Note
+Even dramatic "failures" had successful members:
+- Fun's Jack Antonoff won Producer of the Year and works with Taylor Swift/Kendrick Lamar
+- The "curse" narrative oversimplifies complex career trajectories
 
-- **The Beatles:** "Declined" 23 positions but had 4x more chart appearances post-Grammy
-- **The Carpenters:** "Declined" 33 positions but sustained 10-year career with #1 hit post-Grammy
-- **True curse victims:** Bobbie Gentry (-110 positions), José Feliciano (short post-Grammy career)
+## Why The Curse Belief Persists
 
-## 🔍 Midpoint Findings (30/66 Artists - Pre-Streaming Era)
+1. **Confirmation bias**: We remember failures, forget successes
+2. **Availability heuristic**: Dramatic stories (Milli Vanilli) are more memorable
+3. **Selection bias**: Winning Best New Artist often means you've already peaked
+4. **Catalog charting**: Average-based analysis shows decline due to older songs charting at #140+ years later
 
-**Dataset:** 1,181 Billboard chart entries for 30 Best New Artist winners (1960-2001)
+## Limitations
 
-### Key Discovery: The Curse is Real BUT Misunderstood
+- Quarterly sampling (not every chart position)
+- Pre-streaming era bias (before ~2015)
+- Peak positions don't show longevity
+- No control group (comparing winners vs. nominees who lost)
+- Correlation ≠ causation
 
-#### Statistical Evidence
-- **75% of artists (21/28) showed chart position decline** after Grammy win
-- **Average position change: +15.6** (lower rank number = better position)
-- **p-value: 0.0041** ← Highly statistically significant (p < 0.01)
-- **Interpretation:** This is NOT random chance - the decline is real
+## Tools & Technologies
 
-#### The Nuance: Volume vs Quality Paradox
+- **Python**: pandas, scipy, matplotlib
+- **Data source**: Billboard.com
+- **Analysis**: Wilcoxon signed-rank test
+- **Visualization**: matplotlib with moonpath brand colors
 
-**64% of declining artists INCREASED chart appearances:**
+## Future Work
 
-| Artist | Position Change | Entry Change | Interpretation |
-|--------|----------------|--------------|----------------|
-| The Beatles | -22.9 positions | +89 entries | More productive, lower avg |
-| Mariah Carey | -26.1 positions | +84 entries | Career explosion post-Grammy |
-| The Carpenters | -33.3 positions | +47 entries | Sustained long career |
+**Phase 2: Control Group Analysis**
+- Compare Grammy winners vs. nominees who lost
+- Example matchups: Amy Winehouse (won) vs. Taylor Swift (lost) in 2008
+- Would answer: Does *winning* cause anything, or is it just being a breakthrough artist?
+- Estimated effort: 20-30 hours scraping 30-50 additional artists
 
-**Translation:** Artists release MORE music post-Grammy (experimentation, album cycles), naturally hitting varied chart positions. The "decline" represents **normalization**, not failure.
+## About This Project
 
-#### True Curse Victims: Only 1
+This is my first major web scraping and data analysis project, built to:
+1. Test a widely-believed music industry myth with real data
+2. Build a differentiated data science portfolio piece
+3. Practice rigorous statistical methodology
+4. Challenge conventional wisdom with evidence
 
-**Milli Vanilli** - The ONLY artist with:
-- ✗ Worse positions (+24.9)
-- ✗ Fewer entries (-1)  
-- ✗ 0 years charting post-Grammy
+**Author**: Aleyiah Peña
+**Contact**: [Your contact info]
+**Portfolio**: [moonpath.dev](https://moonpath.dev)
 
-Only **3.6% (1/28)** fit the "true curse" definition.
+## License
 
-#### Commercial Success Post-Grammy
+MIT License - feel free to use this data for your own analysis!
 
-- **71% of #1 hits (22/31) came AFTER winning Grammy**
-- 80% still charting 5 years post-Grammy
-- 33% still charting 10 years post-Grammy
-- Artists: The Beatles (13 different #1s), Mariah Carey (8), America (2)
+## Acknowledgments
 
-### Conclusion
-
-The "Best New Artist curse" exists statistically but is widely misinterpreted. Winners don't fail - they **normalize**. Pre-Grammy artists receive focused promotion for breakthrough hits. Post-Grammy, increased output and experimentation naturally vary chart performance. The Grammy appears to **help** more than hurt: most #1 hits and career peaks occurred post-win.
-
-**Next:** Complete remaining 36 artists (2002-2026, streaming era) to test if curse intensifies in modern music industry.
-
----
-
-
-## ⚠️ Limitations & Considerations
-
-1. **Quarterly sampling** captures ~75% of songs; may miss brief charting singles
-2. **Billboard 200** only available from 1963; early artists have limited album data
-3. **Era effects:** Streaming era (2010+) vs physical sales era (1960-2000s)
-4. **Sample size:** 66 artists (robust but not exhaustive)
-
-## 📈 Project Status
-
-- ✅ Grammy data collected: 1,092 records
-- 🔄 Billboard data: 31/66 artists complete
-- ⏳ Spotify API: March 11, 2026
-
----
-
-*Last updated: February 10, 2026*
+Special thanks to Billboard for maintaining comprehensive chart archives, and to the data science community for resources on proper statistical analysis techniques.
