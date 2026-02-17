@@ -38,7 +38,7 @@ def scrape_bna_quarterly(grammy_csv_path='data/processed/grammy_data_clean.csv',
     
     # Check which artists already scraped
     existing_files = os.listdir(output_dir) if os.path.exists(output_dir) else []
-    scraped_artists = [f.replace('.csv', '').replace('_', ' ') for f in existing_files if f.endswith('.csv')]
+    scraped_artists = [f.replace('.csv', '').replace('_', ' ').replace(' and ', ' & ') for f in existing_files if f.endswith('.csv')]
     
     remaining_artists = [a for a in artists if a not in scraped_artists]
     
